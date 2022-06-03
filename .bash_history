@@ -36,3 +36,16 @@ gcloud run deploy --image gcr.io/C22-PS300/index --platform managed
 gcloud run deploy --image gcr.io/C22-PS300/index --platform managed
 /usr/bin/python3 /home/c2297f2534/skinkr-cc/test/test.py
 git init
+git add .
+git commit -m "update test.py"
+git config --global user.email rafikhairuna@gmail.com
+git config --global user.name rafikhai
+git commit -m "update test.py"
+git remote add origin https://github.com/rafikhai/C22-PS300_CloudComputing.git
+git push origin main
+git push origin master
+git remote set-url origin https://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@github.com/rafikhai/C22-PS300_CloudComputing.git
+git push origin master
+git remote set-url origin https://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@github.com/rafikhai/C22-PS300_CloudComputing.git
+git push origin master
+git init
